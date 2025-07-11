@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://rafey-jawaid.com
+
+# Sitemaps
+Sitemap: https://rafey-jawaid.com/sitemap.xml
