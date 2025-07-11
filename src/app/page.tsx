@@ -42,8 +42,8 @@ const projects = [
   {
     title: 'FinVue Dashboard',
     description: 'A full‑stack finance dashboard that visualizes investments, crypto, and expenses in one place.',
-    image1: '/project_photos/FinVue.png',
-    image2: '/project_photos/finvue1.png',
+    image1: '/project_photos/Finvue.png',
+    image2: '/project_photos/Finvue1.png',
     tags: ['Flask', 'React', 'Finance'],
     github: 'https://github.com/Moe-Reda/FinVue'
   },
