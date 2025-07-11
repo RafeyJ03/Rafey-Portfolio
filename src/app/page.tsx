@@ -72,12 +72,12 @@ const projects = [
     github: 'https://github.com/RafeyJ03/geometric-visual-toolkit'
   },
   {
-    title: 'RA Consulting Website',
+    title: 'RA Consulting Website (IN PROGRESS, COMING SOON)',
     description: 'designed and developed a professional website for a consulting firm based in the MENA Region. The website created is a clean, modern platform that clearly presented the firm&apos;s services and gave potential clients an easy, secure way to get in touch.',
     image1: '/project_photos/RAC.jpg',
     image2: '/project_photos/RAC2.jpg',
     tags: ['Next.js', 'React', 'TailwindCSS', 'Figma'],
-    github: 'https://github.com/RafeyJ03/geometric-visual-toolkit'
+    github: 'https://github.com/RafeyJ03/coming-soon'
   },
 
 ];
@@ -273,6 +273,9 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8 }}
           >
+            {/* SEO heading */}
+            <h1 className="sr-only">Rafey Jawaid - Full Stack Developer Portfolio</h1>
+
             <BackgroundCircles darkMode={darkMode} />
 
         {/* Sticky & responsive navbar */}
@@ -517,7 +520,7 @@ export default function Home() {
                 whileHover={{ rotate: -1, scale: 1.05 }}
                 transition={{ duration: 0.3 }}
               >
-                <Image src={image2} alt="" width={600} height={400} className="rounded-[28px] object-cover w-full h-full" />
+                <Image src={image2} alt={title} width={600} height={400} className="rounded-[28px] object-cover w-full h-full" />
               </motion.div>
             </motion.div>
           ) : (
